@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.hotelbay.CucumberTestRunnerTest" time="7.88" tests="71" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="25"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\ferni\Desktop\university of evora\semester 02\software\New folder\HotelBay\target\test-classes;C:\Users\ferni\Desktop\university of evora\semester 02\software\New folder\HotelBay\target\classes;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.5\spring-boot-starter-web-3.2.5.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.5\spring-boot-starter-3.2.5.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot\3.2.5\spring-boot-3.2.5.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.5\spring-boot-autoconfigure-3.2.5.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.5\spring-boot-starter-logging-3.2.5.jar;C:\Users\ferni\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\ferni\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\ferni\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;C:\Users\ferni\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\ferni\.m2\repository\org\slf4j\jul-to-slf4j\2.0.13\jul-to-slf4j-2.0.13.jar;C:\Users\ferni\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\ferni\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.5\spring-boot-starter-json-3.2.5.jar;C:\Users\ferni\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.4\jackson-databind-2.15.4.jar;C:\Users\ferni\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.4\jackson-annotations-2.15.4.jar;C:\Users\ferni\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.4\jackson-core-2.15.4.jar;C:\Users\ferni\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.4\jackson-datatype-jdk8-2.15.4.jar;C:\Users\ferni\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.4\jackson-datatype-jsr310-2.15.4.jar;C:\Users\ferni\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.4\jackson-module-parameter-names-2.15.4.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.5\spring-boot-starter-tomcat-3.2.5.jar;C:\Users\ferni\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.20\tomcat-embed-core-10.1.20.jar;C:\Users\ferni\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.20\tomcat-embed-websocket-10.1.20.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-web\6.1.6\spring-web-6.1.6.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-beans\6.1.6\spring-beans-6.1.6.jar;C:\Users\ferni\.m2\repository\io\micrometer\micrometer-observation\1.12.5\micrometer-observation-1.12.5.jar;C:\Users\ferni\.m2\repository\io\micrometer\micrometer-commons\1.12.5\micrometer-commons-1.12.5.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-webmvc\6.1.6\spring-webmvc-6.1.6.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-aop\6.1.6\spring-aop-6.1.6.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-context\6.1.6\spring-context-6.1.6.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-expression\6.1.6\spring-expression-6.1.6.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.2.5\spring-boot-starter-validation-3.2.5.jar;C:\Users\ferni\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.20\tomcat-embed-el-10.1.20.jar;C:\Users\ferni\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar;C:\Users\ferni\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\ferni\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\ferni\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.2.5\spring-boot-starter-test-3.2.5.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-test\3.2.5\spring-boot-test-3.2.5.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.2.5\spring-boot-test-autoconfigure-3.2.5.jar;C:\Users\ferni\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\ferni\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\ferni\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\ferni\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\ferni\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\ferni\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\ferni\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\ferni\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\ferni\.m2\repository\net\bytebuddy\byte-buddy\1.14.13\byte-buddy-1.14.13.jar;C:\Users\ferni\.m2\repository\org\awaitility\awaitility\4.2.1\awaitility-4.2.1.jar;C:\Users\ferni\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ferni\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\ferni\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\ferni\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\ferni\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\ferni\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\ferni\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.13\byte-buddy-agent-1.14.13.jar;C:\Users\ferni\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\ferni\.m2\repository\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;C:\Users\ferni\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\ferni\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-core\6.1.6\spring-core-6.1.6.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-jcl\6.1.6\spring-jcl-6.1.6.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-test\6.1.6\spring-test-6.1.6.jar;C:\Users\ferni\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\ferni\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\ferni\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.14.0\cucumber-junit-platform-engine-7.14.0.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\ferni\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-spring\7.14.0\cucumber-spring-7.14.0.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="catalina.useNaming" value="false"/>
+    <property name="user.timezone" value="Europe/Lisbon"/>
+    <property name="org.jboss.logging.provider" value="slf4j"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="25"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
+    <property name="sun.java.command" value="C:\Users\ferni\AppData\Local\Temp\surefire9443139490617155357\surefirebooter-20260430224010248_3.jar C:\Users\ferni\AppData\Local\Temp\surefire9443139490617155357 2026-04-30T22-40-10_029-jvmRun1 surefire-20260430224010248_1tmp surefire_0-20260430224010248_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\ferni\Desktop\university of evora\semester 02\software\New folder\HotelBay\target\test-classes;C:\Users\ferni\Desktop\university of evora\semester 02\software\New folder\HotelBay\target\classes;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.5\spring-boot-starter-web-3.2.5.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.5\spring-boot-starter-3.2.5.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot\3.2.5\spring-boot-3.2.5.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.5\spring-boot-autoconfigure-3.2.5.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.5\spring-boot-starter-logging-3.2.5.jar;C:\Users\ferni\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\ferni\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\ferni\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;C:\Users\ferni\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\ferni\.m2\repository\org\slf4j\jul-to-slf4j\2.0.13\jul-to-slf4j-2.0.13.jar;C:\Users\ferni\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\ferni\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.5\spring-boot-starter-json-3.2.5.jar;C:\Users\ferni\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.4\jackson-databind-2.15.4.jar;C:\Users\ferni\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.4\jackson-annotations-2.15.4.jar;C:\Users\ferni\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.4\jackson-core-2.15.4.jar;C:\Users\ferni\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.4\jackson-datatype-jdk8-2.15.4.jar;C:\Users\ferni\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.4\jackson-datatype-jsr310-2.15.4.jar;C:\Users\ferni\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.4\jackson-module-parameter-names-2.15.4.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.5\spring-boot-starter-tomcat-3.2.5.jar;C:\Users\ferni\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.20\tomcat-embed-core-10.1.20.jar;C:\Users\ferni\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.20\tomcat-embed-websocket-10.1.20.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-web\6.1.6\spring-web-6.1.6.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-beans\6.1.6\spring-beans-6.1.6.jar;C:\Users\ferni\.m2\repository\io\micrometer\micrometer-observation\1.12.5\micrometer-observation-1.12.5.jar;C:\Users\ferni\.m2\repository\io\micrometer\micrometer-commons\1.12.5\micrometer-commons-1.12.5.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-webmvc\6.1.6\spring-webmvc-6.1.6.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-aop\6.1.6\spring-aop-6.1.6.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-context\6.1.6\spring-context-6.1.6.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-expression\6.1.6\spring-expression-6.1.6.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.2.5\spring-boot-starter-validation-3.2.5.jar;C:\Users\ferni\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.20\tomcat-embed-el-10.1.20.jar;C:\Users\ferni\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar;C:\Users\ferni\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\ferni\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\ferni\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.2.5\spring-boot-starter-test-3.2.5.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-test\3.2.5\spring-boot-test-3.2.5.jar;C:\Users\ferni\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.2.5\spring-boot-test-autoconfigure-3.2.5.jar;C:\Users\ferni\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\ferni\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\ferni\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.2\jakarta.xml.bind-api-4.0.2.jar;C:\Users\ferni\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.3\jakarta.activation-api-2.1.3.jar;C:\Users\ferni\.m2\repository\net\minidev\json-smart\2.5.1\json-smart-2.5.1.jar;C:\Users\ferni\.m2\repository\net\minidev\accessors-smart\2.5.1\accessors-smart-2.5.1.jar;C:\Users\ferni\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\ferni\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\ferni\.m2\repository\net\bytebuddy\byte-buddy\1.14.13\byte-buddy-1.14.13.jar;C:\Users\ferni\.m2\repository\org\awaitility\awaitility\4.2.1\awaitility-4.2.1.jar;C:\Users\ferni\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ferni\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\ferni\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\ferni\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\ferni\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\ferni\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\ferni\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.13\byte-buddy-agent-1.14.13.jar;C:\Users\ferni\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\ferni\.m2\repository\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;C:\Users\ferni\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\ferni\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-core\6.1.6\spring-core-6.1.6.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-jcl\6.1.6\spring-jcl-6.1.6.jar;C:\Users\ferni\.m2\repository\org\springframework\spring-test\6.1.6\spring-test-6.1.6.jar;C:\Users\ferni\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-java\7.14.0\cucumber-java-7.14.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-core\7.14.0\cucumber-core-7.14.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-gherkin\7.14.0\cucumber-gherkin-7.14.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.14.0\cucumber-gherkin-messages-7.14.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\tag-expressions\5.0.6\tag-expressions-5.0.6.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-expressions\16.1.2\cucumber-expressions-16.1.2.jar;C:\Users\ferni\.m2\repository\io\cucumber\datatable\7.14.0\datatable-7.14.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-plugin\7.14.0\cucumber-plugin-7.14.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\docstring\7.14.0\docstring-7.14.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\ferni\.m2\repository\io\cucumber\ci-environment\9.2.0\ci-environment-9.2.0.jar;C:\Users\ferni\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-junit-platform-engine\7.14.0\cucumber-junit-platform-engine-7.14.0.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\ferni\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\ferni\.m2\repository\io\cucumber\cucumber-spring\7.14.0\cucumber-spring-7.14.0.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-suite\1.10.0\junit-platform-suite-1.10.0.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-suite-api\1.10.2\junit-platform-suite-api-1.10.2.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-suite-engine\1.10.2\junit-platform-suite-engine-1.10.2.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-suite-commons\1.10.2\junit-platform-suite-commons-1.10.2.jar;C:\Users\ferni\.m2\repository\org\junit\platform\junit-platform-launcher\1.10.2\junit-platform-launcher-1.10.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ferni"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-09-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-25"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\ferni\Desktop\university of evora\semester 02\software\New folder\HotelBay"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\ferni\AppData\Local\Temp\surefire9443139490617155357\surefirebooter-20260430224010248_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="25+37-LTS-3491"/>
+    <property name="user.name" value="ferni"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\ferni\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ferni\AppData\Local\Temp\"/>
+    <property name="catalina.home" value="C:\Users\ferni\AppData\Local\Temp\tomcat.0.1233202602866569140"/>
+    <property name="java.version" value="25"/>
+    <property name="user.dir" value="C:\Users\ferni\Desktop\university of evora\semester 02\software\New folder\HotelBay"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PID" value="31108"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="catalina.base" value="C:\Users\ferni\AppData\Local\Temp\tomcat.0.1233202602866569140"/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-25\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Program Files\PowerShell\7;C:\Program Files\Google\Chrome\Application;C:\Program Files\Microsoft SDKs\Azure\CLI2\wbin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\winlibs-x86_64\mingw64\bin;C:\Program Files\Git\cmd;C:\Program Files\PowerShell\7\;C:\Users\ferni\AppData\Local\Microsoft\WindowsApps;C:\Users\ferni\AppData\Local\Python\bin;C:\Users\ferni\AppData\Local\Python\pythoncore-3.14-64\Scripts;C:\Program Files\JetBrains\PyCharm 2025.2.4\bin;C:\Program Files\JetBrains\CLion 2025.3.3\bin;C:\Users\ferni\AppData\Roaming\Python\Python314\Scripts;C:\apache-maven-3.9.12\bin;C:\Users\ferni\AppData\Local\GitHubDesktop\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25+37-LTS-3491"/>
+    <property name="stdin.encoding" value="Cp1252"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="69.0"/>
+  </properties>
+  <testcase name="Create booking" classname="Booking Management" time="5.316">
+    <system-out><![CDATA[22:40:12.360 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:40:12.561 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.2.5)
+
+2026-04-30T22:40:13.625+01:00  INFO 31108 --- [           main] c.h.steps.CucumberSpringConfiguration    : Starting CucumberSpringConfiguration using Java 25 with PID 31108 (started by ferni in C:\Users\ferni\Desktop\university of evora\semester 02\software\New folder\HotelBay)
+2026-04-30T22:40:13.627+01:00  INFO 31108 --- [           main] c.h.steps.CucumberSpringConfiguration    : The following 1 profile is active: "test"
+2026-04-30T22:40:15.141+01:00  INFO 31108 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2026-04-30T22:40:15.191+01:00  INFO 31108 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-04-30T22:40:15.193+01:00  INFO 31108 --- [           main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.20]
+2026-04-30T22:40:15.411+01:00  INFO 31108 --- [           main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-04-30T22:40:15.411+01:00  INFO 31108 --- [           main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1756 ms
+2026-04-30T22:40:16.241+01:00  INFO 31108 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 50220 (http) with context path ''
+2026-04-30T22:40:16.253+01:00  INFO 31108 --- [           main] c.h.steps.CucumberSpringConfiguration    : Started CucumberSpringConfiguration in 3.322 seconds (process running for 5.785)
+
+Scenario: Create booking                                                &amp#27;[90m# src/test/resources/features/booking-management.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                            &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                          &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+2026-04-30T22:40:17.431+01:00  INFO 31108 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-04-30T22:40:17.432+01:00  INFO 31108 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-04-30T22:40:17.432+01:00  INFO 31108 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls POST /api/reservations with reservation details&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientCallsPostApiReservationsWithDetails()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m                           &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe booking status is set to pending&amp#27;[0m                              &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.bookingStatusIsSetToPending()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (C:\Users\ferni\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.13\byte-buddy-agent-1.14.13.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+  </testcase>
+  <testcase name="Cancel booking" classname="Booking Management" time="0.13">
+    <system-out><![CDATA[2026-04-30T22:40:17.597+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:17.601+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Cancel booking                                &amp#27;[90m# src/test/resources/features/booking-management.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m            &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe guest has a confirmed reservation with ID 1&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.guestHasConfirmedReservation()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls PUT /api/reservations/1/cancel&amp#27;[0m  &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientCallsPutApiReservationsCancel()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m           &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation status is marked as canceled&amp#27;[0m      &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.reservationStatusIsMarkedCanceled()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="View booking details" classname="Booking Management" time="0.036">
+    <system-out><![CDATA[2026-04-30T22:40:17.726+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:17.728+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: View booking details                                          &amp#27;[90m# src/test/resources/features/booking-management.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                            &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe guest has an existing reservation with ID 1&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.guestHasExistingReservation()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls GET /api/reservations/1 for reservation details&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientCallsGetApiReservationsDetails()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                           &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system returns the reservation details&amp#27;[0m                        &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.systemReturnsReservationDetails()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="List user bookings" classname="Booking Management" time="0.035">
+    <system-out><![CDATA[2026-04-30T22:40:17.765+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:17.766+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: List user bookings                                            &amp#27;[90m# src/test/resources/features/booking-management.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                            &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                          &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls GET /api/reservations/guest/1 for user bookings&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientCallsGetApiReservationsGuestBookings()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                           &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system returns a list of the user's reservations&amp#27;[0m              &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.systemReturnsUserReservations()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Check room availability" classname="Booking Management" time="0.028">
+    <system-out><![CDATA[2026-04-30T22:40:17.800+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:17.804+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Check room availability                            &amp#27;[90m# src/test/resources/features/booking-management.feature:34&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe user provides check-in and check-out dates&amp#27;[0m       &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.userProvidesCheckInAndCheckOutDates()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls GET /api/rooms for room availability&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientCallsGetApiRoomsAvailability()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system returns a list of available rooms&amp#27;[0m           &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.systemReturnsAvailableRooms()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create hotel" classname="Hotel Administration" time="0.046">
+    <system-out><![CDATA[2026-04-30T22:40:17.831+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:17.832+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Create hotel                                                                                                     &amp#27;[90m# src/test/resources/features/hotel-management.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                                                                              &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man administrator is authenticated&amp#27;[0m                                                                                    &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorIsAuthenticated()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man administrator is authenticated&amp#27;[0m                                                                                  &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorIsAuthenticated()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe administrator submits a request to create a new hotel with name, description, location, and contact information&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorSubmitsRequestToCreateNewHotel()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system should store the hotel information&amp#27;[0m                                                                       &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.systemShouldStoreHotelInformation()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system should return the created hotel details&amp#27;[0m                                                                   &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.systemShouldReturnCreatedHotelDetails()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Update hotel information" classname="Hotel Administration" time="0.029">
+    <system-out><![CDATA[2026-04-30T22:40:17.877+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:17.879+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Update hotel information                                            &amp#27;[90m# src/test/resources/features/hotel-management.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                                 &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man administrator is authenticated&amp#27;[0m                                       &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorIsAuthenticated()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma hotel with ID 1 exists in the system&amp#27;[0m                                &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.hotelWithId1Exists()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe administrator updates the hotel description or contact information&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorUpdatesHotelInformation()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system should save the updated hotel information&amp#27;[0m                   &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.systemShouldSaveUpdatedHotelInformation()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                  &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Activate hotel" classname="Hotel Administration" time="0.031">
+    <system-out><![CDATA[2026-04-30T22:40:17.907+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:17.910+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Activate hotel                                                    &amp#27;[90m# src/test/resources/features/hotel-management.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                               &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man administrator is authenticated&amp#27;[0m                                     &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorIsAuthenticated()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma hotel with ID 1 exists and is inactive&amp#27;[0m                            &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.hotelWithId1ExistsAndIsInactive()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe administrator activates the hotel&amp#27;[0m                                &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorActivatesHotel()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe hotel should become available for room searches and reservations&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.hotelShouldBecomeAvailable()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Deactivate hotel" classname="Hotel Administration" time="0.028">
+    <system-out><![CDATA[2026-04-30T22:40:17.941+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:17.943+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Deactivate hotel                                      &amp#27;[90m# src/test/resources/features/hotel-management.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                   &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man administrator is authenticated&amp#27;[0m                         &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorIsAuthenticated()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma hotel with ID 1 exists and is active&amp#27;[0m                  &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.hotelWithId1ExistsAndIsActive()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe administrator deactivates the hotel&amp#27;[0m                  &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorDeactivatesHotel()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe hotel should become unavailable for new reservations&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.hotelShouldBecomeUnavailable()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mexisting reservations should remain valid&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.existingReservationsShouldRemainValid()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                    &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Consult hotel details" classname="Hotel Administration" time="0.028">
+    <system-out><![CDATA[2026-04-30T22:40:17.968+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:17.971+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Consult hotel details                                                     &amp#27;[90m# src/test/resources/features/hotel-management.feature:35&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                                       &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man administrator is authenticated&amp#27;[0m                                             &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorIsAuthenticated()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma hotel with ID 1 exists in the system&amp#27;[0m                                      &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.hotelWithId1Exists()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma user requests the hotel details&amp#27;[0m                                            &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.userRequestsHotelDetails()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system should return the hotel name, description, location, and services&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.systemShouldReturnHotelDetails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                        &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="List all hotels" classname="Hotel Administration" time="0.032">
+    <system-out><![CDATA[2026-04-30T22:40:17.996+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:17.997+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: List all hotels                             &amp#27;[90m# src/test/resources/features/hotel-management.feature:41&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                         &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man administrator is authenticated&amp#27;[0m               &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorIsAuthenticated()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mmultiple hotels exist in the system&amp#27;[0m           &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.multipleHotelsExistInTheSystem()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma user requests the list of hotels&amp#27;[0m             &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.userRequestsListOfHotels()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system should return all registered hotels&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.systemShouldReturnAllHotels()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m          &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Process payment" classname="Payment Management" time="0.037">
+    <system-out><![CDATA[2026-04-30T22:40:18.028+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.030+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Process payment                                    &amp#27;[90m# src/test/resources/features/payment-management.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe guest has a pending reservation&amp#27;[0m                  &amp#27;[90m# com.hotelbay.steps.PaymentManagementSteps.guestHasPendingReservation()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls POST /payments with a payment amount&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.PaymentManagementSteps.clientCallsPostPaymentsWithAmount()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m                &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe payment status is set to processing&amp#27;[0m                &amp#27;[90m# com.hotelbay.steps.PaymentManagementSteps.paymentStatusIsSetToProcessing()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Confirm payment" classname="Payment Management" time="0.033">
+    <system-out><![CDATA[2026-04-30T22:40:18.065+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.067+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Confirm payment                        &amp#27;[90m# src/test/resources/features/payment-management.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                    &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m     &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma payment attempt is successful&amp#27;[0m          &amp#27;[90m# com.hotelbay.steps.PaymentManagementSteps.paymentAttemptIsSuccessful()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls PUT /payments/1/confirm&amp#27;[0m  &amp#27;[90m# com.hotelbay.steps.PaymentManagementSteps.clientCallsPutPaymentsConfirm()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m    &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation state changes to confirmed&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.PaymentManagementSteps.reservationStateChangesToConfirmed()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Handle payment failure" classname="Payment Management" time="0.058">
+    <system-out><![CDATA[2026-04-30T22:40:18.098+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.100+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Handle payment failure                             &amp#27;[90m# src/test/resources/features/payment-management.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe client provides invalid payment details&amp#27;[0m          &amp#27;[90m# com.hotelbay.steps.PaymentManagementSteps.clientProvidesInvalidPaymentDetails()&amp#27;[0m
+2026-04-30T22:40:18.127+01:00  WARN 31108 --- [o-auto-1-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.hotelbay.entity.Payment> com.hotelbay.controller.PaymentController.createPayment(com.hotelbay.entity.Payment): [Field error in object 'payment' on field 'amount': rejected value [null]; codes [NotNull.payment.amount,NotNull.amount,NotNull.java.math.BigDecimal,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [payment.amount,amount]; arguments []; default message [amount]]; default message [Payment amount is required]] ]
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls POST /payments with a payment amount&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.PaymentManagementSteps.clientCallsPostPaymentsWithAmount()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation remains in a pending state&amp#27;[0m             &amp#27;[90m# com.hotelbay.steps.PaymentManagementSteps.reservationRemainsInPendingState()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Confirm non-existing payment" classname="Payment Management" time="0.018">
+    <system-out><![CDATA[2026-04-30T22:40:18.155+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.156+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Confirm non-existing payment                                     &amp#27;[90m# src/test/resources/features/payment-management.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                              &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                               &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mno payment exists&amp#27;[0m                                                  &amp#27;[90m# com.hotelbay.steps.PaymentManagementSteps.noPaymentExists()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls PUT /payments/999/confirm for non-existing payment&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.PaymentManagementSteps.clientCallsPutPaymentsConfirmNonExisting()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m404&amp#27;[0m                              &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man error message is returned&amp#27;[0m                                         &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.errorMessageIsReturned()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Confirm already confirmed payment" classname="Payment Management" time="0.036">
+    <system-out><![CDATA[2026-04-30T22:40:18.175+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.176+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Confirm already confirmed payment                                   &amp#27;[90m# src/test/resources/features/payment-management.feature:34&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                                 &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                                  &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma payment has already been confirmed&amp#27;[0m                                  &amp#27;[90m# com.hotelbay.steps.PaymentManagementSteps.paymentHasBeenConfirmed()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls PUT /payments/1/confirm for already confirmed payment&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.PaymentManagementSteps.clientCallsPutPaymentsConfirmAlreadyConfirmed()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m409&amp#27;[0m                                 &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man error message is returned&amp#27;[0m                                            &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.errorMessageIsReturned()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add a rating" classname="Ratings" time="0.038">
+    <system-out><![CDATA[2026-04-30T22:40:18.213+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.215+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Add a rating                                      &amp#27;[90m# src/test/resources/features/ratings-management.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                               &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma guest has completed their stay&amp#27;[0m                    &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.guestHasCompletedTheirStay()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls POST /hotels/&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m/ratings with a score&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.clientCallsPostHotelsRatingsWithScore(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m               &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe rating is saved&amp#27;[0m                                   &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.ratingIsSaved()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="View average rating" classname="Ratings" time="0.033">
+    <system-out><![CDATA[2026-04-30T22:40:18.252+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.254+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: View average rating                         &amp#27;[90m# src/test/resources/features/ratings-management.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                         &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m          &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma hotel has ratings&amp#27;[0m                           &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.hotelHasRatings()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls GET /hotels/&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m/ratings/average&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.clientCallsGetHotelsRatingsAverage(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m         &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system returns the average rating&amp#27;[0m           &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.systemReturnsAverageRating()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Update a rating" classname="Ratings" time="0.028">
+    <system-out><![CDATA[2026-04-30T22:40:18.285+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.288+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Update a rating                               &amp#27;[90m# src/test/resources/features/ratings-management.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m            &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma guest has submitted a rating&amp#27;[0m                  &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.guestHasSubmittedRating()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls PUT /ratings/&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m with a new score&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.clientCallsPutRatingsWithNewScore(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m           &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe rating is updated&amp#27;[0m                             &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.ratingIsUpdated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reject invalid rating" classname="Ratings" time="0.025">
+    <system-out><![CDATA[2026-04-30T22:40:18.314+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.315+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Reject invalid rating                                      &amp#27;[90m# src/test/resources/features/ratings-management.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                        &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                         &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma guest has completed their stay&amp#27;[0m                             &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.guestHasCompletedTheirStay()&amp#27;[0m
+2026-04-30T22:40:18.331+01:00  WARN 31108 --- [o-auto-1-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.hotelbay.entity.Review> com.hotelbay.controller.ReviewController.createReview(com.hotelbay.entity.Review): [Field error in object 'review' on field 'rating': rejected value [11]; codes [Max.review.rating,Max.rating,Max.java.lang.Integer,Max]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [review.rating,rating]; arguments []; default message [rating],10]; default message [Rating must not exceed 10]] ]
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls POST /hotels/&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m/ratings with an invalid score&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.clientCallsPostHotelsRatingsWithInvalidScore(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                        &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man error message is returned for ratings&amp#27;[0m                       &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.errorMessageIsReturnedForRatings()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Update non-existing rating" classname="Ratings" time="0.022">
+    <system-out><![CDATA[2026-04-30T22:40:18.339+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.341+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Update non-existing rating                  &amp#27;[90m# src/test/resources/features/ratings-management.feature:34&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                         &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m          &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mno rating exists with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m999&amp#27;[0m                  &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.noRatingExistsWithId(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls PUT /ratings/&amp#27;[0m&amp#27;[32m&amp#27;[1m999&amp#27;[0m&amp#27;[32m with a score&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.clientCallsPutRatingsWithScore(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m404&amp#27;[0m         &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man error message is returned for ratings&amp#27;[0m        &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.errorMessageIsReturnedForRatings()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="View average rating for hotel without ratings" classname="Ratings" time="0.025">
+    <system-out><![CDATA[2026-04-30T22:40:18.361+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.362+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: View average rating for hotel without ratings &amp#27;[90m# src/test/resources/features/ratings-management.feature:40&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m            &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma hotel has no ratings&amp#27;[0m                          &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.hotelHasNoRatings()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls GET /hotels/&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m/ratings/average&amp#27;[0m   &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.clientCallsGetHotelsRatingsAverage(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m           &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system returns 0 as the average rating&amp#27;[0m        &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.systemReturns0AsAverageRating()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Request refund" classname="Refund Management" time="0.024">
+    <system-out><![CDATA[2026-04-30T22:40:18.388+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.392+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Request refund                                         &amp#27;[90m# src/test/resources/features/refund-management.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                    &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                     &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma guest has a canceled reservation eligible for a refund&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.guestHasCanceledReservationEligibleForRefund()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls POST /refunds with the reservation ID&amp#27;[0m    &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.clientCallsPostWithReservationId()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                    &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe refund request is recorded as pending&amp#27;[0m                  &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.refundRequestIsRecordedAsPending()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Approve refund" classname="Refund Management" time="0.022">
+    <system-out><![CDATA[2026-04-30T22:40:18.413+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.414+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Approve refund                              &amp#27;[90m# src/test/resources/features/refund-management.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                         &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m          &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma pending refund request exists&amp#27;[0m               &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.pendingRefundRequestExists()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe administrator calls PUT /refunds/1/approve&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.administratorCallsPutRefundsApprove()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe administrator receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m  &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.administratorReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe refund status is updated to approved&amp#27;[0m        &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.refundStatusIsUpdatedToApproved()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Process refund" classname="Refund Management" time="0.024">
+    <system-out><![CDATA[2026-04-30T22:40:18.435+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.437+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Process refund                                               &amp#27;[90m# src/test/resources/features/refund-management.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                          &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                           &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32man administrator has approved a refund request&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.administratorHasApprovedRefundRequest()&amp#27;[0m
+2026-04-30T22:40:18.453+01:00  WARN 31108 --- [o-auto-1-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' is not supported]
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe system processes the transaction via PUT /refunds/1/process&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.systemProcessesTransactionRefundsProcess()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                          &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe refund status is marked as completed&amp#27;[0m                         &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.refundStatusIsMarkedAsCompleted()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Reject refund request for invalid reservation" classname="Refund Management" time="0.02">
+    <system-out><![CDATA[2026-04-30T22:40:18.458+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.459+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Reject refund request for invalid reservation              &amp#27;[90m# src/test/resources/features/refund-management.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                        &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                         &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma reservation is not eligible for a refund&amp#27;[0m                   &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.reservationIsNotEligibleForRefund()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls POST /refunds with an invalid reservation ID&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.clientCallsPostRefundsInvalid()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                        &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man error message is returned for refunds&amp#27;[0m                       &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.errorMessageIsReturned()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Approve non-existing refund request" classname="Refund Management" time="0.016">
+    <system-out><![CDATA[2026-04-30T22:40:18.478+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.479+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Approve non-existing refund request                                       &amp#27;[90m# src/test/resources/features/refund-management.feature:34&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                                       &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                                        &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mno pending refund request exists&amp#27;[0m                                            &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.noPendingRefundRequestExists()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe administrator calls PUT /api/payments/&amp#27;[0m&amp#27;[32m&amp#27;[1m999&amp#27;[0m&amp#27;[32m/refund for non-existing refund&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.the_administrator_calls_put_api_payments_refund_for_non_existing_refund(java.lang.Integer)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                       &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man error message is returned for refunds&amp#27;[0m                                      &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.errorMessageIsReturned()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Process refund without approval" classname="Refund Management" time="0.013">
+    <system-out><![CDATA[2026-04-30T22:40:18.494+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.494+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Process refund without approval                                                   &amp#27;[90m# src/test/resources/features/refund-management.feature:40&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                                               &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                                                &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma refund request exists but is not approved&amp#27;[0m                                         &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.refundRequestExistsButIsNotApproved()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe system processes the transaction via PUT /api/payments/1/refund without approval&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.systemProcessesTransactionNotApprovedInt()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                                               &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man error message is returned for refunds&amp#27;[0m                                              &amp#27;[90m# com.hotelbay.steps.RefundManagementSteps.errorMessageIsReturned()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create a new reservation" classname="Reservation Management" time="0.024">
+    <system-out><![CDATA[2026-04-30T22:40:18.513+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.514+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Create a new reservation                                              &amp#27;[90m# src/test/resources/features/reservation-management.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                                   &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                                        &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI want to create a new reservation&amp#27;[0m                                      &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.wantToCreateNewReservation()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma room with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m is available&amp#27;[0m                                             &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.roomWithIdIsAvailable(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma guest with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m exists&amp#27;[0m                                                  &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.guestWithIdExists(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma hotel with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m exists&amp#27;[0m                                                  &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.hotelWithIdExistsForReservation(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a POST request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations"&amp#27;[0m&amp#27;[32m with valid reservation data&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendPostRequestWithValidData(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m&amp#27;[32m CREATED&amp#27;[0m                                &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeCreated(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain reservation details&amp#27;[0m                           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainReservationDetails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation should be saved in the database&amp#27;[0m                           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationShouldBeSavedInDatabase()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation should have PENDING status&amp#27;[0m                                &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationShouldHavePendingStatus()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Attempt to create reservation for unavailable room" classname="Reservation Management" time="0.022">
+    <system-out><![CDATA[2026-04-30T22:40:18.539+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.540+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Attempt to create reservation for unavailable room      &amp#27;[90m# src/test/resources/features/reservation-management.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                     &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                          &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma room with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m is unavailable&amp#27;[0m                           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.roomWithIdIsUnavailable(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma guest with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m exists&amp#27;[0m                                    &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.guestWithIdExists(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a POST request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations"&amp#27;[0m&amp#27;[32m with roomId &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendPostRequestWithRoomId(java.lang.String,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m409&amp#27;[0m&amp#27;[32m CONFLICT&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeConflict(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain an error message&amp#27;[0m                &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainErrorMessage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Attempt to create reservation with conflicting dates" classname="Reservation Management" time="0.024">
+    <system-out><![CDATA[2026-04-30T22:40:18.562+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.563+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Attempt to create reservation with conflicting dates             &amp#27;[90m# src/test/resources/features/reservation-management.feature:28&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                              &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                                   &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma room with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m has a reservation for a date range&amp#27;[0m                &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.roomWithIdHasReservationForDateRange(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma guest with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m exists&amp#27;[0m                                             &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.guestWithIdExists(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a POST request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations"&amp#27;[0m&amp#27;[32m with overlapping dates&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendPostRequestWithOverlappingDates(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m409&amp#27;[0m&amp#27;[32m CONFLICT&amp#27;[0m                          &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeConflict(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain an error message&amp#27;[0m                         &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainErrorMessage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Get all reservations" classname="Reservation Management" time="0.025">
+    <system-out><![CDATA[2026-04-30T22:40:18.585+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.587+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Get all reservations                                        &amp#27;[90m# src/test/resources/features/reservation-management.feature:35&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                         &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                              &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthere are reservations in the system&amp#27;[0m                          &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.thereAreReservationsInTheSystem()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations"&amp#27;[0m                    &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendGetRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK&amp#27;[0m                           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeOk(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain a list of reservations&amp#27;[0m              &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainListOfReservations()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32meach reservation should have id, room, guest, hotel, and status&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.eachReservationShouldHaveRequiredFields()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Get reservation by ID" classname="Reservation Management" time="0.023">
+    <system-out><![CDATA[2026-04-30T22:40:18.610+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.611+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Get reservation by ID                       &amp#27;[90m# src/test/resources/features/reservation-management.feature:42&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                         &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m              &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma reservation with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m exists&amp#27;[0m                &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationWithIdExists(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/1"&amp#27;[0m  &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendGetRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK&amp#27;[0m           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeOk(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain reservation details&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainReservationDetails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation should have the correct ID&amp#27;[0m      &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationShouldHaveCorrectId()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Get reservations by guest" classname="Reservation Management" time="0.022">
+    <system-out><![CDATA[2026-04-30T22:40:18.633+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.634+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Get reservations by guest                        &amp#27;[90m# src/test/resources/features/reservation-management.feature:49&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                              &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                   &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma guest with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m has reservations&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.guestWithIdHasReservations(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/guest/1"&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendGetRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK&amp#27;[0m                &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeOk(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain reservations for guest &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainReservationsForGuest(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mall reservations should belong to guest &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m            &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.allReservationsShouldBelongToGuest(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Get reservations by hotel" classname="Reservation Management" time="0.017">
+    <system-out><![CDATA[2026-04-30T22:40:18.655+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.658+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Get reservations by hotel                        &amp#27;[90m# src/test/resources/features/reservation-management.feature:56&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                              &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                   &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma hotel with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m has reservations&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.hotelWithIdHasReservations(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/hotel/1"&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendGetRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK&amp#27;[0m                &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeOk(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain reservations for hotel &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainReservationsForHotel(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mall reservations should belong to hotel &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m            &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.allReservationsShouldBelongToHotel(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Get reservations by room" classname="Reservation Management" time="0.023">
+    <system-out><![CDATA[2026-04-30T22:40:18.673+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.676+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Get reservations by room                        &amp#27;[90m# src/test/resources/features/reservation-management.feature:63&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                             &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                  &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma room with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m has reservations&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.roomWithIdHasReservations(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/room/1"&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendGetRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK&amp#27;[0m               &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeOk(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain reservations for room &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainReservationsForRoom(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mall reservations should belong to room &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m            &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.allReservationsShouldBelongToRoom(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Get reservations by status" classname="Reservation Management" time="0.026">
+    <system-out><![CDATA[2026-04-30T22:40:18.696+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.698+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Get reservations by status                              &amp#27;[90m# src/test/resources/features/reservation-management.feature:70&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                     &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                          &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthere are reservations with different statuses&amp#27;[0m            &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.thereAreReservationsWithDifferentStatuses()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/status/PENDING"&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendGetRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK&amp#27;[0m                       &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeOk(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain only pending reservations&amp#27;[0m       &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainOnlyPendingReservations()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mall reservations should have PENDING status&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.allReservationsShouldHavePendingStatus()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Get reservations by guest and status" classname="Reservation Management" time="0.022">
+    <system-out><![CDATA[2026-04-30T22:40:18.723+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.725+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Get reservations by guest and status                              &amp#27;[90m# src/test/resources/features/reservation-management.feature:77&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                               &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                                    &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma guest with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m has reservations&amp#27;[0m                                  &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.guestWithIdHasReservations(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/guest/1/status/CONFIRMED"&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendGetRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK&amp#27;[0m                                 &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeOk(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain confirmed reservations for guest &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m        &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainConfirmedReservationsForGuest(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mall reservations should belong to guest &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m and have CONFIRMED status&amp#27;[0m   &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.allReservationsShouldBelongToGuestAndHaveConfirmedStatus(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Update existing reservation" classname="Reservation Management" time="0.018">
+    <system-out><![CDATA[2026-04-30T22:40:18.744+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.745+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Update existing reservation                                            &amp#27;[90m# src/test/resources/features/reservation-management.feature:84&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                                    &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                                         &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma reservation with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m exists&amp#27;[0m                                           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationWithIdExists(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation has PENDING status&amp#27;[0m                                         &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationHasPendingStatus()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a PUT request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/1"&amp#27;[0m&amp#27;[32m with valid reservation data&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendPutRequestWithValidData(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK&amp#27;[0m                                      &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeOk(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain updated reservation details&amp#27;[0m                    &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainUpdatedReservationDetails()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation should be updated in the database&amp#27;[0m                          &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationShouldBeUpdatedInDatabase()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Confirm a pending reservation" classname="Reservation Management" time="0.022">
+    <system-out><![CDATA[2026-04-30T22:40:18.763+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.764+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Confirm a pending reservation                      &amp#27;[90m# src/test/resources/features/reservation-management.feature:92&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                     &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma reservation with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m has PENDING status&amp#27;[0m           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.aReservationWithIdHasPendingStatus(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a PUT request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/1/confirm"&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendPutRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK&amp#27;[0m                  &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeOk(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation should have CONFIRMED status&amp#27;[0m           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationShouldHaveConfirmedStatus()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation should be updated in the database&amp#27;[0m      &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationShouldBeUpdatedInDatabase()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Cancel a pending reservation" classname="Reservation Management" time="0.016">
+    <system-out><![CDATA[2026-04-30T22:40:18.784+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.786+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Cancel a pending reservation                      &amp#27;[90m# src/test/resources/features/reservation-management.feature:99&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                               &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                    &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma reservation with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m has PENDING status&amp#27;[0m          &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.aReservationWithIdHasPendingStatus(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a PUT request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/1/cancel"&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendPutRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeOk(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation should have CANCELED status&amp#27;[0m           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationShouldHaveCanceledStatus()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation should be updated in the database&amp#27;[0m     &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationShouldBeUpdatedInDatabase()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Cancel a confirmed reservation" classname="Reservation Management" time="0.019">
+    <system-out><![CDATA[2026-04-30T22:40:18.800+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.803+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Cancel a confirmed reservation                    &amp#27;[90m# src/test/resources/features/reservation-management.feature:106&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                               &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                    &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma reservation with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m has CONFIRMED status&amp#27;[0m        &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.aReservationWithIdHasConfirmedStatus(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a PUT request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/1/cancel"&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendPutRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeOk(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation should have CANCELED status&amp#27;[0m           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationShouldHaveCanceledStatus()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation should be updated in the database&amp#27;[0m     &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationShouldBeUpdatedInDatabase()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Complete a confirmed reservation" classname="Reservation Management" time="0.015">
+    <system-out><![CDATA[2026-04-30T22:40:18.821+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.823+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Complete a confirmed reservation                    &amp#27;[90m# src/test/resources/features/reservation-management.feature:113&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                 &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                      &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma reservation with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m has CONFIRMED status&amp#27;[0m          &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.aReservationWithIdHasConfirmedStatus(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a PUT request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/1/complete"&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendPutRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m&amp#27;[32m OK&amp#27;[0m                   &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeOk(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation should have COMPLETED status&amp#27;[0m            &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationShouldHaveCompletedStatus()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation should be updated in the database&amp#27;[0m       &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationShouldBeUpdatedInDatabase()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Attempt to complete a pending reservation" classname="Reservation Management" time="0.016">
+    <system-out><![CDATA[2026-04-30T22:40:18.836+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.838+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Attempt to complete a pending reservation           &amp#27;[90m# src/test/resources/features/reservation-management.feature:120&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                 &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                      &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma reservation with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m has PENDING status&amp#27;[0m            &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.aReservationWithIdHasPendingStatus(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a PUT request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/1/complete"&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendPutRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m&amp#27;[32m BAD REQUEST&amp#27;[0m          &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeBadRequest(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain an error message&amp#27;[0m            &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainErrorMessage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Attempt to cancel a completed reservation" classname="Reservation Management" time="0.016">
+    <system-out><![CDATA[2026-04-30T22:40:18.851+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.854+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Attempt to cancel a completed reservation         &amp#27;[90m# src/test/resources/features/reservation-management.feature:126&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                               &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                    &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma reservation with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m has COMPLETED status&amp#27;[0m        &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.aReservationWithIdHasCompletedStatus(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a PUT request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/1/cancel"&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendPutRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m&amp#27;[32m BAD REQUEST&amp#27;[0m        &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeBadRequest(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain an error message&amp#27;[0m          &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainErrorMessage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Delete existing reservation" classname="Reservation Management" time="0.017">
+    <system-out><![CDATA[2026-04-30T22:40:18.868+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.870+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Delete existing reservation                     &amp#27;[90m# src/test/resources/features/reservation-management.feature:132&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                             &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                  &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma reservation with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m exists&amp#27;[0m                    &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationWithIdExists(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a DELETE request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/1"&amp#27;[0m   &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendDeleteRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m204&amp#27;[0m&amp#27;[32m NO CONTENT&amp#27;[0m       &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeNoContent(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe reservation should be removed from the database&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationShouldBeRemovedFromDatabase()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Attempt to delete non-existent reservation" classname="Reservation Management" time="0.015">
+    <system-out><![CDATA[2026-04-30T22:40:18.886+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.888+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Attempt to delete non-existent reservation      &amp#27;[90m# src/test/resources/features/reservation-management.feature:138&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                             &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                  &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mno reservation with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m999&amp#27;[0m&amp#27;[32m exists&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.noReservationWithIdExists(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a DELETE request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/999"&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendDeleteRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m404&amp#27;[0m&amp#27;[32m NOT FOUND&amp#27;[0m        &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeNotFound(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain an error message&amp#27;[0m        &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainErrorMessage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Get non-existent reservation by ID" classname="Reservation Management" time="0.019">
+    <system-out><![CDATA[2026-04-30T22:40:18.902+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.904+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Get non-existent reservation by ID           &amp#27;[90m# src/test/resources/features/reservation-management.feature:144&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                          &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m               &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mno reservation with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m999&amp#27;[0m&amp#27;[32m exists&amp#27;[0m              &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.noReservationWithIdExists(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a GET request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/999"&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendGetRequest(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m404&amp#27;[0m&amp#27;[32m NOT FOUND&amp#27;[0m     &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeNotFound(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain an error message&amp#27;[0m     &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainErrorMessage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Validate reservation creation with invalid data" classname="Reservation Management" time="0.041">
+    <system-out><![CDATA[2026-04-30T22:40:18.921+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.923+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Validate reservation creation with invalid data              &amp#27;[90m# src/test/resources/features/reservation-management.feature:150&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                          &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                               &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+2026-04-30T22:40:18.951+01:00  WARN 31108 --- [o-auto-1-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.hotelbay.entity.Reservation> com.hotelbay.controller.ReservationController.createReservation(com.hotelbay.entity.Reservation) with 2 errors: [Field error in object 'reservation' on field 'checkInDate': rejected value [null]; codes [NotNull.reservation.checkInDate,NotNull.checkInDate,NotNull.java.time.LocalDate,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [reservation.checkInDate,checkInDate]; arguments []; default message [checkInDate]]; default message [Check-in date is required]] [Field error in object 'reservation' on field 'checkOutDate': rejected value [null]; codes [NotNull.reservation.checkOutDate,NotNull.checkOutDate,NotNull.java.time.LocalDate,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [reservation.checkOutDate,checkOutDate]; arguments []; default message [checkOutDate]]; default message [Check-out date is required]] ]
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a POST request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations"&amp#27;[0m&amp#27;[32m with invalid data:&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendPostRequestWithInvalidData(java.lang.String,io.cucumber.datatable.DataTable)&amp#27;[0m
+    | roomId  | guestId | hotelId | checkIn | checkOut | numberOfGuests |
+    | [empty] | [empty] | [empty] | [empty] | [empty]  | 0              |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m&amp#27;[32m BAD REQUEST&amp#27;[0m                   &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeBadRequest(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain validation errors&amp#27;[0m                    &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainValidationErrors()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Validate reservation update with invalid data" classname="Reservation Management" time="0.023">
+    <system-out><![CDATA[2026-04-30T22:40:18.962+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.963+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Validate reservation update with invalid data                 &amp#27;[90m# src/test/resources/features/reservation-management.feature:157&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                                &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma reservation with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m exists&amp#27;[0m                                  &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.reservationWithIdExists(int)&amp#27;[0m
+2026-04-30T22:40:18.979+01:00  WARN 31108 --- [o-auto-1-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [1] in public org.springframework.http.ResponseEntity<com.hotelbay.entity.Reservation> com.hotelbay.controller.ReservationController.updateReservation(java.lang.Long,com.hotelbay.entity.Reservation): [Field error in object 'reservation' on field 'numberOfGuests': rejected value [0]; codes [Min.reservation.numberOfGuests,Min.numberOfGuests,Min.java.lang.Integer,Min]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [reservation.numberOfGuests,numberOfGuests]; arguments []; default message [numberOfGuests],1]; default message [Number of guests must be at least 1]] ]
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a PUT request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations/1"&amp#27;[0m&amp#27;[32m with invalid data:&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendPutRequestWithInvalidData(java.lang.String,io.cucumber.datatable.DataTable)&amp#27;[0m
+    | checkIn | checkOut | numberOfGuests |
+    | [empty] | [empty]  | 0              |
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m&amp#27;[32m BAD REQUEST&amp#27;[0m                    &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeBadRequest(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain validation errors&amp#27;[0m                     &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainValidationErrors()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create reservation with non-existent room" classname="Reservation Management" time="0.016">
+    <system-out><![CDATA[2026-04-30T22:40:18.984+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:18.987+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Create reservation with non-existent room                 &amp#27;[90m# src/test/resources/features/reservation-management.feature:165&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                       &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                            &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mno room with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m999&amp#27;[0m&amp#27;[32m exists&amp#27;[0m                                  &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.noRoomWithIdExists(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma guest with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m exists&amp#27;[0m                                      &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.guestWithIdExists(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a POST request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations"&amp#27;[0m&amp#27;[32m with roomId &amp#27;[0m&amp#27;[32m&amp#27;[1m999&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendPostRequestWithRoomId(java.lang.String,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m&amp#27;[32m BAD REQUEST&amp#27;[0m                &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeBadRequest(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain an error message&amp#27;[0m                  &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainErrorMessage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create reservation with non-existent guest" classname="Reservation Management" time="0.018">
+    <system-out><![CDATA[2026-04-30T22:40:19.001+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.004+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Create reservation with non-existent guest                 &amp#27;[90m# src/test/resources/features/reservation-management.feature:172&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                        &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                             &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma room with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m exists&amp#27;[0m                                      &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.roomWithIdExists(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mno guest with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m999&amp#27;[0m&amp#27;[32m exists&amp#27;[0m                                    &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.noGuestWithIdExists(int)&amp#27;[0m
+2026-04-30T22:40:19.015+01:00  WARN 31108 --- [o-auto-1-exec-7] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.hotelbay.entity.Reservation> com.hotelbay.controller.ReservationController.createReservation(com.hotelbay.entity.Reservation) with 2 errors: [Field error in object 'reservation' on field 'checkOutDate': rejected value [null]; codes [NotNull.reservation.checkOutDate,NotNull.checkOutDate,NotNull.java.time.LocalDate,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [reservation.checkOutDate,checkOutDate]; arguments []; default message [checkOutDate]]; default message [Check-out date is required]] [Field error in object 'reservation' on field 'checkInDate': rejected value [null]; codes [NotNull.reservation.checkInDate,NotNull.checkInDate,NotNull.java.time.LocalDate,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [reservation.checkInDate,checkInDate]; arguments []; default message [checkInDate]]; default message [Check-in date is required]] ]
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a POST request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations"&amp#27;[0m&amp#27;[32m with guestId &amp#27;[0m&amp#27;[32m&amp#27;[1m999&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendPostRequestWithGuestId(java.lang.String,int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m&amp#27;[32m BAD REQUEST&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeBadRequest(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain an error message&amp#27;[0m                   &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainErrorMessage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create reservation with invalid date range" classname="Reservation Management" time="0.02">
+    <system-out><![CDATA[2026-04-30T22:40:19.020+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.022+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Create reservation with invalid date range                        &amp#27;[90m# src/test/resources/features/reservation-management.feature:179&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                               &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI have appropriate user privileges&amp#27;[0m                                    &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.haveAppropriateUserPrivileges()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma room with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m exists&amp#27;[0m                                             &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.roomWithIdExists(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma guest with ID &amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m exists&amp#27;[0m                                              &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.guestWithIdExists(int)&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI send a POST request to &amp#27;[0m&amp#27;[32m&amp#27;[1m"/api/reservations"&amp#27;[0m&amp#27;[32m with invalid date range&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.sendPostRequestWithInvalidDateRange(java.lang.String)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe response status should be &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m&amp#27;[32m BAD REQUEST&amp#27;[0m                        &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseStatusShouldBeBadRequest(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response should contain an error message&amp#27;[0m                          &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.responseShouldContainErrorMessage()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="View hotel reviews" classname="Reviews" time="0.019">
+    <system-out><![CDATA[2026-04-30T22:40:19.041+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.042+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: View hotel reviews                                 &amp#27;[90m# src/test/resources/features/review-management.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma hotel has received reviews from past guests&amp#27;[0m        &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.hotelHasReceivedReviews()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls GET /api/reviews/hotel/&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m for reviews&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.clientCallsGetApiReviewsHotel(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe review response status code is &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.reviewResponseStatusCodeIs(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system returns a list of reviews&amp#27;[0m                   &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.systemReturnsListOfReviews()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="View reviews for a non-existing hotel" classname="Reviews" time="0.016">
+    <system-out><![CDATA[2026-04-30T22:40:19.059+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.061+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: View reviews for a non-existing hotel               &amp#27;[90m# src/test/resources/features/review-management.feature:16&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                 &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                  &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma hotel does not exist&amp#27;[0m                                &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.hotelDoesNotExist()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls GET /api/reviews/hotel/&amp#27;[0m&amp#27;[32m&amp#27;[1m99&amp#27;[0m&amp#27;[32m for reviews&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.clientCallsGetApiReviewsHotel(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe review response status code is &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.reviewResponseStatusCodeIs(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man error message is returned for reviews&amp#27;[0m                &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.errorMessageIsReturnedForReviews()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add a review" classname="Reviews" time="0.014">
+    <system-out><![CDATA[2026-04-30T22:40:19.075+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.075+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Add a review                                               &amp#27;[90m# src/test/resources/features/review-management.feature:22&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                        &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                         &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma guest has a completed reservation for the hotel&amp#27;[0m            &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.guestHasCompletedReservation()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls POST /api/reviews with a textual description&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.clientCallsPostApiReviewsWithDescription()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe review response status code is &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m                        &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.reviewResponseStatusCodeIs(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Add a review without a completed reservation" classname="Reviews" time="0.015">
+    <system-out><![CDATA[2026-04-30T22:40:19.089+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.091+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Add a review without a completed reservation               &amp#27;[90m# src/test/resources/features/review-management.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                        &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                         &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma guest does not have a completed reservation for the hotel&amp#27;[0m  &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.guestDoesNotHaveCompletedReservation()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls POST /api/reviews with a textual description&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.clientCallsPostApiReviewsWithDescription()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe review response status code is &amp#27;[0m&amp#27;[32m&amp#27;[1m400&amp#27;[0m                        &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.reviewResponseStatusCodeIs(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man error message is returned for reviews&amp#27;[0m                       &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.errorMessageIsReturnedForReviews()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Update a review" classname="Reviews" time="0.014">
+    <system-out><![CDATA[2026-04-30T22:40:19.105+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.106+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Update a review                                              &amp#27;[90m# src/test/resources/features/review-management.feature:33&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                          &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                           &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma guest has previously submitted a review&amp#27;[0m                      &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.guestHasPreviouslySubmittedReview()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls PUT /api/reviews/&amp#27;[0m&amp#27;[32m&amp#27;[1m1&amp#27;[0m&amp#27;[32m with an updated description&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.clientCallsPutApiReviewsWithUpdatedDescription(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe review response status code is &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                          &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.reviewResponseStatusCodeIs(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system updates the review text&amp#27;[0m                               &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.systemUpdatesReviewText()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Update a non-existing review" classname="Reviews" time="0.013">
+    <system-out><![CDATA[2026-04-30T22:40:19.118+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.120+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Update a non-existing review                                                          &amp#27;[90m# src/test/resources/features/review-management.feature:39&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                                                   &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe client is authenticated as a guest&amp#27;[0m                                                    &amp#27;[90m# com.hotelbay.steps.BookingManagementSteps.clientIsAuthenticatedAsGuest()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma review does not exist&amp#27;[0m                                                                 &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.reviewDoesNotExist()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls PUT /api/reviews/&amp#27;[0m&amp#27;[32m&amp#27;[1m99&amp#27;[0m&amp#27;[32m with an updated description for non-existing review&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.clientCallsPutApiReviewsWithUpdatedDescriptionNonExisting(int)&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe review response status code is &amp#27;[0m&amp#27;[32m&amp#27;[1m404&amp#27;[0m                                                   &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.reviewResponseStatusCodeIs(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man error message is returned for reviews&amp#27;[0m                                                  &amp#27;[90m# com.hotelbay.steps.ReviewManagementSteps.errorMessageIsReturnedForReviews()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Create room" classname="Room Management" time="0.046">
+    <system-out><![CDATA[2026-04-30T22:40:19.132+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.137+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Create room                                                              &amp#27;[90m# src/test/resources/features/room-management.feature:10&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                                      &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man administrator is authenticated&amp#27;[0m                                            &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorIsAuthenticated()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma hotel exists in the system&amp#27;[0m                                               &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.hotelExistsInTheSystem()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32man administrator adds a new room with identifier, type, capacity, and price&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.administratorAddsNewRoom()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system should store the room information&amp#27;[0m                                &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.systemShouldStoreRoomInformation()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32massociate the room with the hotel&amp#27;[0m                                            &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.associateRoomWithHotel()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m                                       &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.responseStatusCodeShouldBe(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Update room information" classname="Room Management" time="0.021">
+    <system-out><![CDATA[2026-04-30T22:40:19.178+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.179+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Update room information                              &amp#27;[90m# src/test/resources/features/room-management.feature:17&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                  &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man administrator is authenticated&amp#27;[0m                        &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorIsAuthenticated()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma room exists in a hotel&amp#27;[0m                               &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.aRoomExistsInAHotel()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe administrator updates the room description or price&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.administratorUpdatesRoomInformation()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system should save the updated room information&amp#27;[0m     &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.systemShouldSaveUpdatedRoomInformation()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m                   &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.responseStatusCodeShouldBe(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Delete room" classname="Room Management" time="0.017">
+    <system-out><![CDATA[2026-04-30T22:40:19.200+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.202+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Delete room                                              &amp#27;[90m# src/test/resources/features/room-management.feature:23&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                      &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man administrator is authenticated&amp#27;[0m                            &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorIsAuthenticated()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma room exists in a hotel&amp#27;[0m                                   &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.aRoomExistsInAHotel()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe administrator deletes the room&amp#27;[0m                          &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.administratorDeletesRoom()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe room should be removed from the list of available rooms&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.roomShouldBeRemovedFromAvailableRooms()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mpast reservations should remain recorded&amp#27;[0m                     &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.pastReservationsShouldRemainRecorded()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe response status code should be &amp#27;[0m&amp#27;[32m&amp#27;[1m204&amp#27;[0m                       &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.responseStatusCodeShouldBe(int)&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Delete non-existing room" classname="Room Management" time="0.027">
+    <system-out><![CDATA[2026-04-30T22:40:19.217+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.218+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Delete non-existing room                               &amp#27;[90m# src/test/resources/features/room-management.feature:30&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                    &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man administrator is authenticated&amp#27;[0m                          &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorIsAuthenticated()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma room does not exist in a hotel&amp#27;[0m                         &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.roomDoesNotExistInHotel()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe administrator attempts to delete the room&amp#27;[0m             &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.administratorAttemptsToDeleteRoom()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system should return status code &amp#27;[0m&amp#27;[32m&amp#27;[1m404&amp#27;[0m&amp#27;[32m for deleted room&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.systemShouldReturnStatusCodeForDeletedRoom(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man error message is returned&amp#27;[0m                               &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.errorMessageIsReturned()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Search rooms" classname="Room Management" time="0.025">
+    <system-out><![CDATA[2026-04-30T22:40:19.249+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.252+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Search rooms                                                                      &amp#27;[90m# src/test/resources/features/room-management.feature:36&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                                               &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man administrator is authenticated&amp#27;[0m                                                     &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorIsAuthenticated()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mmultiple hotels and rooms exist in the system&amp#27;[0m                                       &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.multipleHotelsAndRoomsExist()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma user searches for rooms using filters such as location, category, price, and dates&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.userSearchesForRoomsWithFilters()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system should return rooms that match the search criteria and are available&amp#27;[0m      &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.systemShouldReturnMatchingRooms()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Search with no results" classname="Room Management" time="0.013">
+    <system-out><![CDATA[2026-04-30T22:40:19.271+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.272+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Search with no results              &amp#27;[90m# src/test/resources/features/room-management.feature:41&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man administrator is authenticated&amp#27;[0m       &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorIsAuthenticated()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mno rooms match the search filters&amp#27;[0m     &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.noRoomsMatchSearchFilters()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma user searches for rooms&amp#27;[0m              &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.userSearchesForRooms()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system should return an empty list&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.systemShouldReturnEmptyList()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="View room details" classname="Room Management" time="0.014">
+    <system-out><![CDATA[2026-04-30T22:40:19.283+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.283+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: View room details                                                     &amp#27;[90m# src/test/resources/features/room-management.feature:46&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                                   &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man administrator is authenticated&amp#27;[0m                                         &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorIsAuthenticated()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma room exists in the system&amp#27;[0m                                             &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.roomExistsInTheSystem()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma user requests the room details&amp#27;[0m                                         &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.userRequestsRoomDetails()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system should return the room type, capacity, price, and description&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.systemShouldReturnRoomDetails()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="View deleted room" classname="Room Management" time="0.012">
+    <system-out><![CDATA[2026-04-30T22:40:19.296+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.297+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: View deleted room                     &amp#27;[90m# src/test/resources/features/room-management.feature:51&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                   &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man administrator is authenticated&amp#27;[0m         &amp#27;[90m# com.hotelbay.steps.HotelManagementSteps.administratorIsAuthenticated()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32ma room has been deleted&amp#27;[0m                 &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.roomHasBeenDeleted()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32ma user requests the room details&amp#27;[0m         &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.userRequestsRoomDetails()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe system should return status code &amp#27;[0m&amp#27;[32m&amp#27;[1m404&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.systemShouldReturnStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man error message is returned&amp#27;[0m              &amp#27;[90m# com.hotelbay.steps.RoomManagementSteps.errorMessageIsReturned()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Successful user registration" classname="User Authentication" time="0.04">
+    <system-out><![CDATA[2026-04-30T22:40:19.310+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.310+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Successful user registration                 &amp#27;[90m# src/test/resources/features/user-management.feature:9&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                          &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe client provides valid registration details&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.UserManagementSteps.clientProvidesValidRegistrationDetails()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls POST /users/register&amp#27;[0m           &amp#27;[90m# com.hotelbay.steps.UserManagementSteps.clientCallsPostUsersRegister()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe auth client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m201&amp#27;[0m     &amp#27;[90m# com.hotelbay.steps.UserManagementSteps.authClientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32ma new user account is created&amp#27;[0m                    &amp#27;[90m# com.hotelbay.steps.UserManagementSteps.newUserAccountIsCreated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Registration with already registered email" classname="User Authentication" time="0.034">
+    <system-out><![CDATA[2026-04-30T22:40:19.350+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.351+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Registration with already registered email                    &amp#27;[90m# src/test/resources/features/user-management.feature:15&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                                           &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe client provides registration details with an existing email&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.UserManagementSteps.clientProvidesRegistrationDetailsWithExistingEmail()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls POST /users/register&amp#27;[0m                            &amp#27;[90m# com.hotelbay.steps.UserManagementSteps.clientCallsPostUsersRegister()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe auth client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m409&amp#27;[0m                      &amp#27;[90m# com.hotelbay.steps.UserManagementSteps.authClientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32man authentication error message is returned&amp#27;[0m                       &amp#27;[90m# com.hotelbay.steps.UserManagementSteps.authenticationErrorMessageIsReturned()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Successful login" classname="User Authentication" time="0.036">
+    <system-out><![CDATA[2026-04-30T22:40:19.385+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.387+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Successful login                          &amp#27;[90m# src/test/resources/features/user-management.feature:21&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                       &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe client provides valid login credentials&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.UserManagementSteps.clientProvidesValidLoginCredentials()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls POST /users/login&amp#27;[0m           &amp#27;[90m# com.hotelbay.steps.UserManagementSteps.clientCallsPostUsersLogin()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe auth client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m  &amp#27;[90m# com.hotelbay.steps.UserManagementSteps.authClientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe system returns an authentication token&amp#27;[0m    &amp#27;[90m# com.hotelbay.steps.UserManagementSteps.systemReturnsAuthenticationToken()&amp#27;[0m
+]]></system-out>
+  </testcase>
+  <testcase name="Successful logout" classname="User Authentication" time="0.036">
+    <system-out><![CDATA[2026-04-30T22:40:19.422+01:00  INFO 31108 --- [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.hotelbay.steps.CucumberSpringConfiguration]: CucumberSpringConfiguration does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-04-30T22:40:19.425+01:00  INFO 31108 --- [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.hotelbay.HotelBayApplication for test class com.hotelbay.steps.CucumberSpringConfiguration
+
+Scenario: Successful logout                        &amp#27;[90m# src/test/resources/features/user-management.feature:27&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe system is running&amp#27;[0m                      &amp#27;[90m# com.hotelbay.steps.ReservationManagementSteps.systemIsRunning()&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mthe client is logged in&amp#27;[0m                    &amp#27;[90m# com.hotelbay.steps.UserManagementSteps.clientIsLoggedIn()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mthe client calls POST /users/logout&amp#27;[0m         &amp#27;[90m# com.hotelbay.steps.UserManagementSteps.clientCallsPostUsersLogout()&amp#27;[0m
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mthe auth client receives status code of &amp#27;[0m&amp#27;[32m&amp#27;[1m200&amp#27;[0m &amp#27;[90m# com.hotelbay.steps.UserManagementSteps.authClientReceivesStatusCode(int)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mthe authentication token is invalidated&amp#27;[0m      &amp#27;[90m# com.hotelbay.steps.UserManagementSteps.authenticationTokenIsInvalidated()&amp#27;[0m
+]]></system-out>
+  </testcase>
+</testsuite>
