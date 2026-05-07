@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.hotelbay.CucumberTestRunnerTest
 -------------------------------------------------------------------------------
-Tests run: 71, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.880 s -- in com.hotelbay.CucumberTestRunnerTest
+Tests run: 71, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.117 s -- in com.hotelbay.CucumberTestRunnerTest

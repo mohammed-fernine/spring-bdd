@@ -5,7 +5,6 @@ com\hotelbay\entity\Room.class
 com\hotelbay\controller\RoomCategoryController.class
 com\hotelbay\controller\UserController.class
 com\hotelbay\service\UserService.class
-com\hotelbay\App.class
 com\hotelbay\controller\PaymentController.class
 com\hotelbay\controller\HotelController.class
 com\hotelbay\controller\ReviewController.class

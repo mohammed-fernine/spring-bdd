@@ -33,11 +33,6 @@ public class UserManagementSteps {
         testUser.setRole(User.UserRole.GUEST);
     }
 
-    @When("the client calls POST {string}")
-    public void clientCallsPostEndpoint(String endpoint) {
-        lastResponse = restTemplate.postForEntity(endpoint, testUser, User.class);
-    }
-
     @When("the client calls POST \\/users\\/register")
     public void clientCallsPostUsersRegister() {
         lastResponse = restTemplate.postForEntity("/api/users/register", testUser, User.class);
@@ -66,7 +61,6 @@ public class UserManagementSteps {
 
     @Given("the client provides registration details with an existing email")
     public void clientProvidesRegistrationDetailsWithExistingEmail() {
-        // Create a user with the email first
         User existingUser = new User();
         existingUser.setName("Existing User");
         existingUser.setUsername("existinguser");
@@ -74,7 +68,6 @@ public class UserManagementSteps {
         existingUser.setRole(User.UserRole.GUEST);
         userService.save(existingUser);
 
-        // Try to register with the same email
         testUser = new User();
         testUser.setName("New User");
         testUser.setUsername("newuser");
@@ -89,7 +82,6 @@ public class UserManagementSteps {
 
     @Given("the client provides valid login credentials")
     public void clientProvidesValidLoginCredentials() {
-        // Create a user first
         User user = new User();
         user.setName("Login User");
         user.setUsername("loginuser");
@@ -111,7 +103,6 @@ public class UserManagementSteps {
 
     @Given("the client is logged in")
     public void clientIsLoggedIn() {
-        // Create and login a user
         User user = new User();
         user.setName("Logged In User");
         user.setUsername("loggedinuser");

@@ -24,31 +24,25 @@ public class UserService {
     }
 
     public Optional<User> findByUsername(String username) {
-        return users.values().stream()
-                .filter(u -> u.getUsername().equals(username))
-                .findFirst();
+        for (User user : users.values()) {
+            if (user.getUsername().equals(username)) {
+                return Optional.of(user);
+            }
+        }
+        return Optional.empty();
     }
 
     public Optional<User> findByEmail(String email) {
-        return users.values().stream()
-                .filter(u -> u.getEmail().equals(email))
-                .findFirst();
+        for (User user : users.values()) {
+            if (user.getEmail().equals(email)) {
+                return Optional.of(user);
+            }
+        }
+        return Optional.empty();
     }
 
     public List<User> findAll() {
         return new ArrayList<>(users.values());
-    }
-
-    public List<User> findAllGuests() {
-        return users.values().stream()
-                .filter(u -> u.getRole() == User.UserRole.GUEST)
-                .toList();
-    }
-
-    public List<User> findAllAdmins() {
-        return users.values().stream()
-                .filter(u -> u.getRole() == User.UserRole.ADMIN)
-                .toList();
     }
 
     public boolean existsById(Long id) {
@@ -56,13 +50,21 @@ public class UserService {
     }
 
     public boolean existsByUsername(String username) {
-        return users.values().stream()
-                .anyMatch(u -> u.getUsername().equals(username));
+        for (User user : users.values()) {
+            if (user.getUsername().equals(username)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public boolean existsByEmail(String email) {
-        return users.values().stream()
-                .anyMatch(u -> u.getEmail().equals(email));
+        for (User user : users.values()) {
+            if (user.getEmail().equals(email)) {
+                return true;
+            }
+        }
+        return false;
     }
 
     public void deleteById(Long id) {

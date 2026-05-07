@@ -28,9 +28,13 @@ public class RoomService {
     }
 
     public List<Room> findByHotelId(Long hotelId) {
-        return rooms.values().stream()
-                .filter(r -> r.getHotel() != null && r.getHotel().getId().equals(hotelId))
-                .toList();
+        List<Room> result = new ArrayList<>();
+        for (Room room : rooms.values()) {
+            if (room.getHotel() != null && room.getHotel().getId().equals(hotelId)) {
+                result.add(room);
+            }
+        }
+        return result;
     }
 
     public boolean existsById(Long id) {

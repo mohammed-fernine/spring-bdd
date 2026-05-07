@@ -2,7 +2,6 @@ com\hotelbay\steps\TestContext.class
 com\hotelbay\CucumberTestRunnerTest.class
 com\hotelbay\steps\PaymentManagementSteps.class
 com\hotelbay\steps\UserManagementSteps.class
-com\hotelbay\AppTest.class
 com\hotelbay\steps\BookingManagementSteps.class
 com\hotelbay\steps\HotelManagementSteps.class
 com\hotelbay\steps\ReviewManagementSteps.class

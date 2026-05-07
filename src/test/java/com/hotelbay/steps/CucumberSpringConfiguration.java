@@ -18,10 +18,6 @@ public class CucumberSpringConfiguration {
     @Autowired
     public TestRestTemplate restTemplate;
 
-    public TestRestTemplate getRestTemplate() {
-        return restTemplate;
-    }
-
     public String getBaseUrl() {
         return "http://localhost:" + port;
     }
